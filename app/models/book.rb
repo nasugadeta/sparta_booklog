@@ -1,4 +1,4 @@
 class Book < ActiveRecord::Base
   has_many :reviews
-  has_mamy :users, through: :reviews
+  has_many :users, through: :reviews
 end
